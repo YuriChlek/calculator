@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-div.wrapper{
+
+div.wrapper {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     margin: 0 auto;
     width: 500px;
@@ -11,14 +12,16 @@ div.wrapper{
     background: darkgrey;
     border-radius: 10px;
 }
-span.logotype{
+
+span.logotype {
     display: block;
     text-transform: uppercase;
     font-size: 20px;
-   text-align: center;
+    text-align: center;
     padding-bottom: 15px;
 }
-div.display{
+
+div.display {
     padding: 10px;
     margin-bottom: 10px;
     font-size: 30px;
@@ -28,12 +31,12 @@ div.display{
     text-align: right;
 }
 
-ul.keyboard{
+ul.keyboard {
     display: flex;
     flex-wrap: wrap;
 }
 
-li.bottom{
+li.bottom {
     list-style-type: none;
     width: calc(25% - 4px);
     display: block;
